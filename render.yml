@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: Phoenix-MD
+    name: KAITO MD
     env: node
     branch: main
-    repo: https://github.com/AbhishekSuresh2/Phoenix-MD.git
+    repo: https://github.com/Frosty004/KAITO_MD.git
     buildCommand: npm install
     startCommand: npm start
     plan: free
@@ -12,21 +12,21 @@ services:
       - key: SESSION_ID
         sync: false
       - key: BOT_NAME
-        value: Phoenix-MD
+        value: KAITO_MD
       - key: OWNER_NAME
-        value: Abhishek Suresh
+        value: Frosty004 
       - key: OWNER_NUMBER
-        value: 919074692450
+        value: 263780858655
       - key: PREFIX
         value: .
       - key: MODE
         value: public
       - key: STICKER_DATA
-        value: 🎯𝙿𝚑𝚘𝚎𝚗𝚒𝚡-𝙼𝙳;𝙰𝚋𝚑𝚒𝚜𝚑𝚎𝚔 𝚂𝚞𝚛𝚎𝚜𝚑☘️
+        value: Kaito_𝙼𝙳;Frosty
       - key: AUDIO_DATA
-        value: Phoenix-MD;Abhishek Suresh;https://graph.org/file/8976892f2f615077b48cd.jpg
+        value: Kaito_MD;Frosty;https://telegra.ph/file/8cb6890065ac3b294a5b8.jpg
       - key: SUDO
-        value: 917025673121
+        value: 263780858655
       - key: AUTO_STATUS_READ
         value: false
       - key: SPAM_COUNT
